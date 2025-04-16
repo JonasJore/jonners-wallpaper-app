@@ -22,13 +22,11 @@ fun MainTopBar(
     colors: TopAppBarColors = TopAppBarDefaults.topAppBarColors(
         containerColor = MaterialTheme.colorScheme.primary
     ),
-    modifier: Modifier = Modifier,
     title: String,
     icon: ImageVector,
     onIconClick: () -> Unit
 ) {
     TopAppBar(
-        modifier = modifier,
         colors = colors,
         title = { Text(text = title) },
         navigationIcon = {
