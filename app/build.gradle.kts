@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.jore.jonnerswallpaperapp"
+    namespace = "no.softsolutionsbyjore.jonnerswallpaperapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "dev.jore.jonnerswallpaperapp"
+        namespace = "no.softsolutionsbyjore.jonnerswallpaperapp"
         minSdk = 33
         targetSdk = 35
         versionCode = 1
