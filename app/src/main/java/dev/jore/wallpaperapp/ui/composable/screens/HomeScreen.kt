@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import coil.compose.AsyncImage
 import dev.jore.wallpaperapp.wallpapers.WallpaperViewModel
-import no.softsolutionsbyjore.jonnerswallpaperapp.R
+import dev.jore.jonnerswallpaperapp.R
 
 @Composable
 fun HomeScreen(

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "no.softsolutionsbyjore.jonnerswallpaperapp"
+    namespace = "dev.jore.jonnerswallpaperapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "no.softsolutionsbyjore.jonnerswallpaperapp"
+        applicationId = "dev.jore.jonnerswallpaperapp"
         minSdk = 33
         targetSdk = 35
         versionCode = 1
@@ -25,6 +25,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
